@@ -1,20 +1,51 @@
 aid: lemonbox
 name: LemonBox
-description: 'LemonBox is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'LemonBox (来檬) is a health-technology brand working in AI-generative
+  personalized nutrition. Founded in 2016 in Silicon Valley, incubated at the University
+  of Chicago Polsky Center in 2017, and accepted into Y Combinator in 2018, it entered
+  the Chinese market that year and is now headquartered in Shanghai. LemonBox builds
+  individualized daily vitamin and supplement packs from a three-minute FFQ (food frequency
+  questionnaire) nutrition assessment scored by its LemonAlgo adaptive engine, then
+  fulfills them one pack at a time (MOQ=1) through its Personalization Fulfillment Center
+  in Hong Kong. The company reports serving more than 10 million cumulative users as of
+  2026 and sells both direct-to-consumer and B2B. Investors include Y Combinator and
+  Partech. LemonBox operates a consumer web and WeChat mini-program experience and
+  publishes no public developer API, SDK, or developer portal; its agent-facing surface
+  is limited to a published /llms.txt and a robots.txt that explicitly allow-lists
+  generative-AI crawlers.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lemonbox.com/images/lemon.png
 url: https://raw.githubusercontent.com/api-evangelist/lemonbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - partech
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Health
+- Nutrition
+- Supplements
+- Personalization
+- Artificial Intelligence
+- Direct to Consumer
+- E-Commerce
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +54,30 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.lemonbox.com/
+- type: Website
+  name: China regional domain
   url: https://www.lemonbox.com.cn/
+- type: About
+  url: https://www.lemonbox.com/en/about
+- type: Blog
+  url: https://www.lemonbox.com/zh/insights
+- type: BlogRSS
+  url: https://www.lemonbox.com/feed.xml
+- type: FAQ
+  url: https://www.lemonbox.com/zh/faq
+- type: Products
+  url: https://www.lemonbox.com/zh/products
+- type: Press
+  url: https://www.lemonbox.com/zh/media
+- type: Sitemap
+  url: https://www.lemonbox.com/sitemap.xml
+- type: LLMsTxt
+  url: llms/lemonbox-llms.txt
+- type: DomainSecurity
+  url: security/lemonbox-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

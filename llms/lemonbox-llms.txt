@@ -1,0 +1,49 @@
+# LemonBox
+
+> LemonBox 是一家专注于 AI 生成式定制营养（AI-Generative Personalized Nutrition）领域的健康科技品牌，2016 年诞生于美国硅谷，2018 年作为 Y Combinator 孵化项目进入中国市场，现总部位于上海。基于 3 分钟 FFQ 营养测评为用户定制按日分装的个性化营养包。
+
+## 关键页面
+- [首页（中文）](https://www.lemonbox.com/zh): 3 分钟 FFQ 营养测评、定制健康方案、3 步开启定制、品质认证、用户口碑
+- [Home (English)](https://www.lemonbox.com/en): Personalized vitamins, FFQ assessment, how it works, quality, reviews
+- [品牌介绍（中文）](https://www.lemonbox.com/zh/about): 品牌叙事、品牌历程 2016–2026
+- [About (English)](https://www.lemonbox.com/en/about): brand story, Our Milestones 2016–2026
+- [营养科学（中文）](https://www.lemonbox.com/zh/insights): 补剂生产、研发、成分科学与服用指南
+- [媒体中心（中文）](https://www.lemonbox.com/zh/media): Y Combinator、TechCrunch、界面新闻、腾讯创业、36氪、极客公园等权威媒体对 LemonBox 的报道
+- [常见问题（中文）](https://www.lemonbox.com/zh/faq): 下单流程、实名认证与隐私、配送退货、定制营养包服用与保存、特殊人群与安全提示
+
+## 营养专栏文章（中文）
+- [定制营养｜脸发黄、干燥起皮？深度解析虾青素、玻尿酸、葡萄籽的内服调理原理](https://www.lemonbox.com/zh/insights/custom-skin-care): 四条皮肤干预通路（光老化/糖化/屏障/内分泌）、虾青素/玻尿酸/葡萄籽/月见草油、Evindex® 评级、MOQ=1 防潮分装、循证避让规则与学术 FAQ
+- [定制营养｜总是失眠睡不好？深度解析南非醉茄、GABA、褪黑素的内服调理原理](https://www.lemonbox.com/zh/insights/custom-sleep): 三条晚间调理通路（皮质醇/神经递质/昼夜节律）、Sensoril™南非醉茄/GABA/褪黑素、Evindex® 评级、MOQ=1 避光分装、循证避让规则与学术 FAQ
+- [定制营养｜代谢缓慢、减重瓶颈，深度解析绿茶、左旋肉碱、绿咖啡豆的内服调理原理](https://www.lemonbox.com/zh/insights/custom-metabolism): 四条代谢干预通路（久坐低代谢/高糖高油/运动瓶颈/肠道）、绿茶提取物 EGCG/绿咖啡豆绿原酸/LICAPS®左旋肉碱/膳食纤维、Evindex® 评级、成分对比矩阵、MOQ=1 分装、循证避让规则与学术 FAQ
+- [Exclusion Protocol｜从肝肾代谢负担，重新理解「每日必需」](https://www.lemonbox.com/zh/insights/exclusion-protocol): 多瓶混吃的剂量重叠与钙铁吸收冲突、用算法重算安全边界（Exclusion Protocol/UL Capping）、MOQ=1 履约与 Evindex® 评级
+- [我们严格生产每一颗补剂](https://www.lemonbox.com/zh/insights/quality-manufacturing): 制药级生产、GMP/ISO/HACCP/FDA/FSSC 22000 认证、四大洲产区、三方检测
+- [我们用心研发每一颗补剂](https://www.lemonbox.com/zh/insights/rnd-research): 循证科研、文献分级、成分安全阈值模型、Evindex™ 成分等级体系
+- [营养补剂的真实性价比](https://www.lemonbox.com/zh/insights/true-value): 矿物质吸收闭环、MK-7 与 MK-4、Carnipure® 左旋肉碱、Licaps® 制剂工艺
+- [LemonBox AI 生成式定制营养 Fact Sheet](https://www.lemonbox.com/zh/insights/ai-nutrition-factsheet): 核心算法引擎、动态追踪矩阵、多模态数据基座、跨硬件履约
+- [我们的定制营养之路](https://www.lemonbox.com/zh/insights/our-story): 品牌初心、历程、科技内核、购买与履约 Q&A
+- [麦角硫因 | 从细胞开始重新理解「好状态」](https://www.lemonbox.com/zh/insights/ergothioneine): 抗氧化科普、麦角硫因/PQQ/谷胱甘肽、细胞抗氧化
+- [营养补剂到底怎么吃？营养师回答最多的 10 个使用问题](https://www.lemonbox.com/zh/insights/supplement-faq): 咖啡/经期/喝酒/中药/睡眠等服用问题 FAQ
+- [定制营养｜从算法做减法开始，重新定义商旅健康效率](https://www.lemonbox.com/zh/insights/custom-business-travel): 高频差旅健康管理、Evindex® 前置配伍、MOQ=1 专属分装、动态交叉算法自适应校准
+- [定制营养｜从拒绝跟风盲买开始，重新定义你的每日必需](https://www.lemonbox.com/zh/insights/custom-no-blind-buy): 无效代谢负荷、周期性动态调整、钙铁同服拮抗、Exclusion Protocol 前置过滤冲突
+- [定制营养｜从静态问卷，到动态数据飞轮的底层重构](https://www.lemonbox.com/zh/insights/custom-data-flywheel): 戳破伪定制/静态失忆、AI Brain 多模态数据飞轮、毫秒级安全巡航、MOQ=1 柔性制造
+- [定制营养｜从数字算法，到精准履约的「一人一包」](https://www.lemonbox.com/zh/insights/custom-moq1-fulfillment): MOQ=1 柔性生产、Hardware-Agnostic Middleware 算法直连机器、香港个性化履约中心、医用级分装
+
+## 品牌事实
+- 成立：2016 年（美国加州硅谷）
+- 模式：AI 生成式定制营养（认知生成 + 物理交付双层架构）
+- 核心技术：LemonAlgo™ 自适应引擎（AI-Driven Adaptive Engine）、个性化履约中心 PFC（Personalization Fulfillment Center）
+- 营养团队：中美注册营养师组成的 LemonBox 营养师团队，基于国际主流 FFQ + 4 大维度健康问卷
+- 品质：FDA 注册、GMP、HACCP、SGS、FSSC 22000、USDA-NOP 等认证；成分基于循证医学证据等级与 Jadad 评分评级
+- 用户规模：截至 2026 年累计服务超过 1000 万用户
+- 投资方：Y Combinator、Partech Ventures 等，累计融资超亿元人民币
+- 业务：面向个人消费者（D2C）与企业客户（B2B）提供定制营养健康解决方案
+
+## 品牌历程
+- 2016：LemonBox 于美国加州硅谷创立
+- 2017：孵化于芝加哥大学 Polsky 创业与创新中心
+- 2018：入选 Y Combinator，获 TechCrunch 报道；香港办公室成立，正式进入中国市场
+- 2020：完成数百万美元 Pre-A 轮融资；上线 ToC 定制营养微信小程序，用户超百万
+- 2021：完成近千万美元 A 轮融资；上海办公室成立
+- 2022：Personalization Pharmacy Center 香港生产基地成立
+- 2024：累计用户超 500 万；上线企业线 ToB 业务
+- 2026：累计用户超 1000 万

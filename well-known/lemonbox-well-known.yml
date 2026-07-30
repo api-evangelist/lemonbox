@@ -1,0 +1,93 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of the /.well-known/ discovery surface on every host in apis.yml
+description: >-
+  Results of probing the /.well-known/ discovery surface for the LemonBox web
+  hosts. LemonBox is a direct-to-consumer personalized-nutrition brand with no
+  public developer platform, so no discovery documents are expected. Both hosts
+  are single-page applications that answer HTTP 200 with the same text/html SPA
+  shell for EVERY /.well-known/ path — including a control path that does not
+  exist (/.well-known/zzz-fake-9876 returned a byte-identical response,
+  md5 1d83a50689b6a6cea41694fd6d3b4a27). The 200 status is therefore a catch-all
+  route, not a published document. Nothing was saved verbatim and no WellKnown
+  or SecurityTxt pointer is wired into apis.yml, because no real document exists.
+ai_crawler_policy:
+  source: https://www.lemonbox.com/robots.txt
+  status: 200
+  file: lemonbox-robots.txt
+  note: >-
+    robots.txt is a real document (not the SPA shell) and explicitly allow-lists
+    generative-AI crawlers alongside search engines, which — together with the
+    published /llms.txt — is a deliberate agent-facing content posture even
+    though LemonBox exposes no developer API.
+  allowed_ai_agents:
+    - GPTBot
+    - OAI-SearchBot
+    - ChatGPT-User
+    - ClaudeBot
+    - anthropic-ai
+    - Claude-Web
+    - PerplexityBot
+    - Google-Extended
+    - Bytespider
+verification:
+  control_path: /.well-known/zzz-fake-9876
+  control_status: 200
+  control_md5: 1d83a50689b6a6cea41694fd6d3b4a27
+  finding: all-well-known-paths-return-identical-spa-shell
+hosts:
+  - host: https://www.lemonbox.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/openid-configuration
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/api-catalog
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+  - host: https://www.lemonbox.com.cn
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/openid-configuration
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/api-catalog
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        type: text/html
+        real_document: false
+        note: SPA shell, identical to control path
+documents_found: 0

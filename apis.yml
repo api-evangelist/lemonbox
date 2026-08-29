@@ -13,6 +13,17 @@ description: 'LemonBox (来檬) is a health-technology brand working in AI-gener
   publishes no public developer API, SDK, or developer portal; its agent-facing surface
   is limited to a published /llms.txt and a robots.txt that explicitly allow-lists
   generative-AI crawlers.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

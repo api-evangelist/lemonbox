@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/lemonbox/integrations
+- https://n8n.io/integrations/lemonbox/
+- https://composio.dev/toolkits/lemonbox
+- https://monid.ai/tools/lemonbox
+checked:
+- https://composio.dev/toolkits/lemonbox
+- https://monid.ai/tools/lemonbox
+- https://n8n.io/integrations/lemonbox/
+- https://zapier.com/apps/lemonbox/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
